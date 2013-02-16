@@ -1,0 +1,27 @@
+2013/02/10 21:15:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/images/bar...')
+#3 D:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\vrhiring\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/vrhiring/site/images/bar-bg.png
+HTTP_REFERER=http://localhost/vrhiring/site/contact
+---
+2013/02/11 17:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "employer/org".' in D:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('employer/org')
+#1 D:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\vrhiring\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vrhiring/employer/org
+---
+2013/02/11 19:13:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "r=gii".' in D:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('r=gii')
+#1 D:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\vrhiring\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vrhiring/r=gii
+---
